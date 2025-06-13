@@ -1,0 +1,80 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, rgb(136, 0, 0), rgba(0, 0, 0, 0.9));
+}
+
+.img-news {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url(img/bag-news.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 35px;
+  color: gold;
+  text-shadow: 0 0 3px black;
+  background: linear-gradient( to right, rgba(164, 0, 0, 0.667), rgba(0, 0, 165, 0.709));
+  border: 2px solid white;
+  border-radius: 13px 0 0 0;
+  width: 400px;
+  border-right: none;
+  position: absolute;
+  padding: 20px;
+  top: 70%;
+  right: 0;
+}
+
+.scrole {
+  margin: 10% auto;
+  width: 80%;
+  height: 400px;
+  padding: 0 35px;
+  background: linear-gradient(to left, rgb(140, 0, 0), rgb(0, 0, 146));
+  overflow-y: auto;
+  border: 3px  solid white;
+  border-radius: 20px;
+}
+
+.scrole h2 {
+  font-size: 30px;
+  color: gold;
+  text-shadow: 0 0 3px black;
+  font-style: italic;
+}
+
+.scrole span {
+  color: white;
+  overflow: scroll;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.blure::after {
+  content: "";
+  position: absolute;
+  top: 73%;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  filter: blur(5px);
+  background: linear-gradient(to left, rgb(94, 0, 0), rgba(0, 0, 0, 0.9));
+}
+
+
+.scrole::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrole::-webkit-scrollbar-thumb {
+  background-color: #7e7e7e;
+  border-radius: 5px;
+}
+
+.scrole::-webkit-scrollbar-track {
+  background-color: #b41818;
+}

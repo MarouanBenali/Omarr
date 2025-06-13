@@ -1,0 +1,113 @@
+
+body{
+    background: url(img/campnou-bag.jpg) no-repeat center center fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+}
+
+.login{
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(1, 1, 79, 0.785);
+    width: 30%;
+    height: 60%;
+}
+
+.login h2{
+    position: relative;
+    font-size: 28px;
+    color: gold;
+    text-shadow: 0 1px 3px black;
+}
+
+.line::after{
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  transform: translateX(-100%) scaleX(0); 
+  height: 4px;
+  width: 70px; 
+  background: linear-gradient(to left,gold,red);
+  transition: transform 0.6s ease;
+}
+
+.line:hover::after{
+  transform: translateX(-100%) scaleX(1); 
+}
+
+.login input{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.32);
+    margin-top: 20px;
+    width: 70%;
+    transition: all 0.4s ease;
+}
+
+.login input::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.login input:hover{
+    box-shadow: 0 0 5px white;
+}
+
+.btn-send{
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 30% !important; 
+    border-radius: 20px;
+    background: linear-gradient(to top,rgb(1, 1, 184),rgb(184, 0, 0));
+    transition: all 0.4s ease;
+    
+}
+
+.btn-send:hover{
+    box-shadow: 0 0 7px white;
+    text-shadow:  0 0 7px gold;
+}
+
+ .learn-more{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    color: white;
+    font-size: 15px;
+ }
+
+ .btn-more{
+    color: white;
+    font-weight: bold;
+    font-size: arial;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to top,red, gold);
+    transition: all 0.4s ease;
+ }
+ 
+ .btn-more:hover{
+    box-shadow: 0 -1px 7px white;
+    text-shadow:  0 -1px 7px gold;
+ }

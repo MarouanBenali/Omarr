@@ -39,6 +39,7 @@ body {
 }
 
 .up {
+  margin-top: 70px;
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;

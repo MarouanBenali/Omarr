@@ -36,11 +36,3 @@ function upDown() {
     list.style.opacity = "1";
   }
 }
-
-function scrollLeft() {
-    document.querySelector('.up').scrollBy({ left: -300, behavior: 'smooth' });
-}
-
-function scrollRight() {
-    document.querySelector('.up').scrollBy({ left: 300, behavior: 'smooth' });
-}

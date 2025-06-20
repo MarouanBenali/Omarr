@@ -39,7 +39,7 @@ body {
 }
 
 .up {
-  margin-top: 150px;
+  margin-top: 90px;
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
@@ -111,53 +111,16 @@ body {
     border-radius: 4px;
 }
 
-.title1 {
+.titlee{
   text-align: center;
-  font-size: 45px;
+  font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
-  color: gold;
+  color: white;
   text-shadow: 0 0 7px rgb(0, 0, 0);
-  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
+  background: linear-gradient(to left,rgba(187, 6, 6, 0.812),gold,rgba(206, 8, 8, 0.812));
   border: 1px solid white;
-  border-radius: 0 13px 0 0;
-  width: 400px;
+  width: 100%;
   border-left: none;
-  position: absolute;
-  padding: 15px 0;
-  top: 430px;
-  left: 0;
-}
-
-.title2 {
-  text-align: center;
-  font-size: 45px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
-  color: gold;
-  text-shadow: 0 0 7px rgb(0, 0, 0);
-  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
-  border: 1px solid white;
-  border-radius: 0 13px 0 0;
-  width: 400px;
-  border-left: none;
-  position: absolute;
-  padding: 15px 0;
-  top: 1100px;
-  left: 0;
-}
-
-.title3 {
-  text-align: center;
-  font-size: 45px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
-  color: gold;
-  text-shadow: 0 0 7px rgb(0, 0, 0);
-  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
-  border: 1px solid white;
-  border-radius: 0 13px 0 0;
-  width: 400px;
-  border-left: none;
-  position: absolute;
-  padding: 15px 0;
-  top: 1790px;
-  left: 0;
+  border-right: none;
+  padding: 5px 0;
 }

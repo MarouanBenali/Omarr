@@ -39,7 +39,7 @@ body {
 }
 
 .up {
-  margin-top: 70px;
+  margin-top: 150px;
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
@@ -109,4 +109,55 @@ body {
 .up::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 4px;
+}
+
+.title1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+  color: gold;
+  text-shadow: 0 0 7px rgb(0, 0, 0);
+  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
+  border: 1px solid white;
+  border-radius: 0 13px 0 0;
+  width: 400px;
+  border-left: none;
+  position: absolute;
+  padding: 15px 0;
+  top: 430px;
+  left: 0;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+  color: gold;
+  text-shadow: 0 0 7px rgb(0, 0, 0);
+  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
+  border: 1px solid white;
+  border-radius: 0 13px 0 0;
+  width: 400px;
+  border-left: none;
+  position: absolute;
+  padding: 15px 0;
+  top: 1100px;
+  left: 0;
+}
+
+.title3 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+  color: gold;
+  text-shadow: 0 0 7px rgb(0, 0, 0);
+  background: linear-gradient(to left,rgba(0, 0, 122, 0.812),rgba(0, 143, 143, 0.836));
+  border: 1px solid white;
+  border-radius: 0 13px 0 0;
+  width: 400px;
+  border-left: none;
+  position: absolute;
+  padding: 15px 0;
+  top: 1790px;
+  left: 0;
 }
